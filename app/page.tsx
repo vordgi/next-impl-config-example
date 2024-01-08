@@ -23,6 +23,16 @@ export default function Page() {
           Postbuild (/middleware.tsx)
         </Link>
       </p>
+      <p>
+        <Link href="https://github.com/vordgi/next-impl-config-example">
+          Example github
+        </Link>
+      </p>
+      <p>
+        <Link href="https://github.com/vordgi/next-impl-config">
+          Package github
+        </Link>
+      </p>
     </section>
   );
 }
