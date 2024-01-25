@@ -21,5 +21,11 @@ module.exports = {
                 "string": "server/default nested.nested2.nested3.string",
             }
         }
+    },
+    "function": () => {
+        return ({
+            "string": "server/default function.string",
+            "string-local": "server/default function.string-local",
+        })
     }
 }

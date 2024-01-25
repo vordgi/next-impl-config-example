@@ -8,5 +8,11 @@ module.exports = {
                 "string": "server/default.local nested.nested2.nested3.string",
             }
         }
+    },
+    "function": () => {
+        return ({
+            "string": "server/default.local function.string",
+            "string-local": "server/default.local function.string-local",
+        })
     }
 }

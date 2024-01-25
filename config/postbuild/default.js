@@ -21,5 +21,11 @@ module.exports = {
                 "string": "postbuild/default nested.nested2.nested3.string",
             }
         }
+    },
+    "function": () => {
+        return ({
+            "string": "postbuild/default function.string",
+            "string-local": "postbuild/default function.string-local",
+        })
     }
 }
